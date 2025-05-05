@@ -1,0 +1,14 @@
+body {
+    background-color: greenyellow;
+    color: rgb(255, 23, 23);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 400%;
+    color: rgb(255, 23, 23);
+}
+
+button {
+    font-size: 200%;
+}
