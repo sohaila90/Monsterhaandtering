@@ -11,6 +11,17 @@ function changeMood() {
     updateView();
 }
 
+function removeMonster() {
+    for(let i = 0; i < monsters.length; i++) {
+        if(monsters[i].strength < 500) {
+        monsters.splice(i,1);
+        }
+    
+    
+    }
+    updateView();
+    }
+
 
 // - Controller: Lag funksjoner for å:
 // Få alle monstre til å bli sinna (if humøret er "glad", endre til "sinna").

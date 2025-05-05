@@ -36,10 +36,5 @@ function printMonsters() {
     return html;
 }
 
-function removeMonster() {
-for(let i = 0; i < monsters.length; i++) {
-monsters.splice();
-}
-}
 // - View: Vis listen over monstre, enten på siden eller i consollen. 
 // Fjern monstre som er for svake (styrke under 5). -->
