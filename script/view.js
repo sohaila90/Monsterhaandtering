@@ -38,7 +38,7 @@ function printMonsters() {
 
 function removeMonster() {
 for(let i = 0; i < monsters.length; i++) {
-
+monsters.splice();
 }
 }
 // - View: Vis listen over monstre, enten på siden eller i consollen. 
